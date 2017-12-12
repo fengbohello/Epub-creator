@@ -1,12 +1,13 @@
 <?php
 header('content-Type:text/html;charset=utf-8');
 
-require('Epub/EpubZip.class.php');
-require('Epub/Epub.class.php');
-require('Epub/EpubCore.class.php');
-require('Epub/EpubPacker.class.php');
-require('bookdata.php');
+define('LIBDIR', dirname(__FILE__) . "/..");
+require(LIBDIR . '/Epub/EpubZip.class.php');
+require(LIBDIR . '/Epub/Epub.class.php');
+require(LIBDIR . '/Epub/EpubCore.class.php');
+require(LIBDIR . '/Epub/EpubPacker.class.php');
 
+require('bookdata.php');
 $epub = new EpubPacker('./book002');
 
 //初始化Epub，可在此之前初始化公有属性
@@ -39,9 +40,9 @@ echo $epub->showError();
 
 if( $pack )
 {
-	echo "epub书籍打包成功！";
+	echo "epub书籍打包成功！\n";
 }else{
-	echo "epub书籍打包失败！";
+	echo "epub书籍打包失败！\n";
 }
 
 ?>
