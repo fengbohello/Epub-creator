@@ -1,7 +1,7 @@
 <?php
 $bookdata =<<<HTML
 　　东胜神洲，傲来国，花果山巅。&lt;br /&gt;
-&lt;img src=&quot;bookimages/20130701073306_19761.jpg&quot; width=&quot;300&quot; height=&quot;438&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+&lt;img src=&quot;images/20130701073306_19761.jpg&quot; width=&quot;300&quot; height=&quot;438&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
 　　一片桃花的玉瓣自枝上旋转飘落，在空中打了几个转，落在了一只猴子的手中。&lt;br /&gt;
 &lt;br /&gt;
 　　这猴子用不十分灵活的手指捻起这片花瓣，凑到鼻前闻了闻，一股清香若有若无，猴子皱了皱眉，一双大大的眼睛如闪亮的星星，孩童般清澈无邪。&lt;br /&gt;
@@ -148,7 +148,7 @@ $bookInfo = array(
 	'rights'      => 'zBook.EpubMaker'
 );
 
-$bookCover = 'bookCover.jpg';
+$bookCover = 'images/bookCover.jpg';
 
 $data = array(
 	'1.第一章节'=>'东胜神洲，傲来国，花果山巅。&lt;br /&gt;
