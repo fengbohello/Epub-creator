@@ -45,10 +45,10 @@
    }
 
    $fileName = "programmer-xiuzhen.epub";
-   $bookName = "程序员修真";
+   $tempdir = "temp";
 
    /*************************************************/
-   $epub = new EpubPacker($bookName);
+   $epub = new EpubPacker($tempdir);
 
    //初始化Epub，可在此之前初始化公有属性
    $epub->init();
