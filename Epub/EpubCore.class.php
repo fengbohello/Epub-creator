@@ -27,7 +27,7 @@ class EpubCore extends Epub {
 							'language'    => 'zh-cn',
 							'relation'    => '',
 							'coverage'    => '',
-							'rights'      => 'zBook.EpubMaker'
+                            'rights'      => 'fengbohello'
 							);
 	public     $coverPage   = 'cover.html';         // 封面页面名称
 	public     $coverPageId = 'coverPage';          // 封面页面ID
@@ -125,7 +125,7 @@ class EpubCore extends Epub {
 
 		$this->setIdent();
 		$this->setXmeta('cover',$this->coverImgId);
-		$this->setXmeta('zBook version',EPUB::VERSION);
+        $this->setXmeta('zBook version', $this->VERSION);
 	}
 
 

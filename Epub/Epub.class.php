@@ -9,8 +9,8 @@
 class Epub {
 
 	const     VERSION           = 1.0;
-	const     AUTHOR            = 'wendoscoo';
-	const     EMIAL             = 'wendosyi@gmail.com';
+	const     AUTHOR            = 'fengbohello';
+	const     EMIAL             = 'fengbohello@foxmail.com';
 
 	protected $mimetype         = "application/epub+zip";
 	public    $epubRootPath     = "./";							// 创建打包epub文件系统的工作目录
